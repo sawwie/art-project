@@ -1,0 +1,7 @@
+platformio
+scipy
+numpy
+matplotlib
+pandas
+pooch
+PyQt6
