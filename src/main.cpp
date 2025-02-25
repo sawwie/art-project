@@ -37,7 +37,7 @@ volatile void set_pixels_1(uint8_t r, uint8_t g, uint8_t b);
 volatile void set_pixels_2(uint8_t r, uint8_t g, uint8_t b);
 volatile void set_pixels_3(uint8_t r, uint8_t g, uint8_t b);
 
-Adafruit_NeoPixel tc3_slave(NUMPIXELS, 3, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel tc3_slave(NUMPIXELS, 3, NEO_RGB + NEO_KHZ800);
 Adafruit_NeoPixel tc4_slave(NUMPIXELS, 4, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel tc5_slave(NUMPIXELS, 5, NEO_GRB + NEO_KHZ800);
 
